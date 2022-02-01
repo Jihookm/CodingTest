@@ -1,2 +1,5 @@
-a,b=map(int,input().split())
-print(a*b-1)
+a=list(map(int,input().split()))
+a.sort()
+
+for i in a:
+    print(i,end=' ')
